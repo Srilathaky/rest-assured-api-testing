@@ -10,7 +10,7 @@
         ```
             mvn test
         ```     
-        If the set is proper "Hello World!!!" will be printed on your terminal.
+        If the set is proper "Hello World!!!" will be printed on the terminal.
         
    
 ## APIs to Automate:
