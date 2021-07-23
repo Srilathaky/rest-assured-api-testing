@@ -11,6 +11,9 @@ public class GetSingleUser {
      *****************************************************************************************************************************************************/
     @Test
     public void testGetSignleUser(){
+              Response response=given().contentType(ContentType.JSON).
+                when().get("https://reqres.in/api/users/2").then().assertThat().statusCode(200).and().extract().response();
+        System.out.println("response of the list user API is  "+response.asString());
 
     }
 }
