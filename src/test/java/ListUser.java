@@ -16,10 +16,7 @@ public class ListUser {
      *****************************************************************************************************************************************************/
     @Test
     public void testListUser(){
-       Response response= given().contentType(ContentType.JSON).when()
-                .get("https://reqres.in/api/users")
-                    .then().assertThat().statusCode(200).and().extract().response();
-        System.out.println("response of the list user API is  "+response.asString());
+
 
     }
 }
